@@ -1,0 +1,698 @@
+[
+  {
+    "text": "does the airport at burbank have a flight that comes in from kansas city",
+    "intent": "flight",
+    "intent_prediction": {
+      "name": "ground_service",
+      "confidence": 0.21716086566448212
+    }
+  },
+  {
+    "text": "show me the cheapest round trip between st. petersburg and detroit that arrives before 7 pm",
+    "intent": "flight",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.6277991533279419
+    }
+  },
+  {
+    "text": "i need a flight from cleveland to dallas that leaves before noon see if too much information",
+    "intent": "flight",
+    "intent_prediction": {
+      "name": "flight_no",
+      "confidence": 0.2224876582622528
+    }
+  },
+  {
+    "text": "list delta flights from seattle to salt lake city with aircraft type",
+    "intent": "flight",
+    "intent_prediction": {
+      "name": "capacity",
+      "confidence": 0.301609605550766
+    }
+  },
+  {
+    "text": "what is the first class round trip airfare from india indianapolis to memphis",
+    "intent": "airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9984244108200073
+    }
+  },
+  {
+    "text": "list first class airfare round trip from indianapolis to memphis",
+    "intent": "airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.951896607875824
+    }
+  },
+  {
+    "text": "i need a ticket from nashville to seattle",
+    "intent": "airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9928494691848755
+    }
+  },
+  {
+    "text": "i need a ticket from nashville tennessee to seattle",
+    "intent": "airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9969754219055176
+    }
+  },
+  {
+    "text": "list coach round trip airfare from detroit to st. petersburg",
+    "intent": "airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.522504448890686
+    }
+  },
+  {
+    "text": "how much is coach flight from pittsburgh to atlanta",
+    "intent": "airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9139311909675598
+    }
+  },
+  {
+    "text": "show flight and prices kansas city to chicago on next wednesday arriving in chicago by 7 pm",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9995169639587402
+    }
+  },
+  {
+    "text": "list all flights and their fares from memphis to miami on a wednesday evening",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.5297057628631592
+    }
+  },
+  {
+    "text": "list all sunday flights from cleveland to nashville and their fares",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.1903887242078781
+    }
+  },
+  {
+    "text": "i need a round trip from atlanta to washington dc and the fares leaving in the morning",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.3096359670162201
+    }
+  },
+  {
+    "text": "show me the nonstop flights and fares from toronto to st. petersburg",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9892917275428772
+    }
+  },
+  {
+    "text": "what is the ground transportation between the charlotte airport charlotte airport and downtown charlotte",
+    "intent": "ground_service",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.5363812446594238
+    }
+  },
+  {
+    "text": "please show ground transportation to milwaukee",
+    "intent": "ground_service",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.20713858306407928
+    }
+  },
+  {
+    "text": "is there ground transportation from the memphis airport into town when if i arrive at 842 in the morning",
+    "intent": "ground_service",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.45632773637771606
+    }
+  },
+  {
+    "text": "please list ground transportation from ewr into new york city",
+    "intent": "ground_service",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.7735408544540405
+    }
+  },
+  {
+    "text": "what day of the week do flights from nashville to tacoma fly on",
+    "intent": "day_name",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.931636393070221
+    }
+  },
+  {
+    "text": "what meals are there on flight 382 from milwaukee to washington dc on tuesday morning",
+    "intent": "meal",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.3791112005710602
+    }
+  },
+  {
+    "text": "what airlines off from love field between 6 and 10 am on june sixth",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9058839678764343
+    }
+  },
+  {
+    "text": "what airlines are departing from baltimore",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.6931196451187134
+    }
+  },
+  {
+    "text": "i would like to have the airline that flies toronto detroit and st. louis",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9908774495124817
+    }
+  },
+  {
+    "text": "what airline is as as in sam",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "abbreviation",
+      "confidence": 0.4790136218070984
+    }
+  },
+  {
+    "text": "list the airlines with flights to or from denver",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.5660268068313599
+    }
+  },
+  {
+    "text": "to what cities from boston does america west fly first class",
+    "intent": "city",
+    "intent_prediction": {
+      "name": "capacity",
+      "confidence": 0.13474373519420624
+    }
+  },
+  {
+    "text": "what cities does northwest fly out of",
+    "intent": "city",
+    "intent_prediction": {
+      "name": "airport",
+      "confidence": 0.20152711868286133
+    }
+  },
+  {
+    "text": "list the cities from which northwest flies",
+    "intent": "city",
+    "intent_prediction": {
+      "name": "airport",
+      "confidence": 0.7563313841819763
+    }
+  },
+  {
+    "text": "what are the fares for ground transportation in denver",
+    "intent": "ground_fare",
+    "intent_prediction": {
+      "name": "ground_service",
+      "confidence": 0.48661771416664124
+    }
+  },
+  {
+    "text": "how much is a limousine service in toronto international",
+    "intent": "ground_fare",
+    "intent_prediction": {
+      "name": "ground_service",
+      "confidence": 0.3080637454986572
+    }
+  },
+  {
+    "text": "how much is limousine service in los angeles",
+    "intent": "ground_fare",
+    "intent_prediction": {
+      "name": "ground_service",
+      "confidence": 0.3118200898170471
+    }
+  },
+  {
+    "text": "how many canadian airlines international flights use j31",
+    "intent": "quantity",
+    "intent_prediction": {
+      "name": "capacity",
+      "confidence": 0.31935787200927734
+    }
+  },
+  {
+    "text": "how many canadian airlines international flights use aircraft 320",
+    "intent": "quantity",
+    "intent_prediction": {
+      "name": "capacity",
+      "confidence": 0.4128507971763611
+    }
+  },
+  {
+    "text": "how far is new york 's la guardia from downtown",
+    "intent": "distance",
+    "intent_prediction": {
+      "name": "ground_service",
+      "confidence": 0.2678788900375366
+    }
+  },
+  {
+    "text": "how long does a flight from baltimore to san francisco take",
+    "intent": "distance",
+    "intent_prediction": {
+      "name": "capacity",
+      "confidence": 0.27768874168395996
+    }
+  },
+  {
+    "text": "list the distance in miles from boston airport to downtown boston",
+    "intent": "distance",
+    "intent_prediction": {
+      "name": "airport",
+      "confidence": 0.26385995745658875
+    }
+  },
+  {
+    "text": "list the distance in miles from new york 's la guardia airport to downtown new york city",
+    "intent": "distance",
+    "intent_prediction": {
+      "name": "airport",
+      "confidence": 0.3539634346961975
+    }
+  },
+  {
+    "text": "list type of aircraft for all flights from charlotte",
+    "intent": "aircraft",
+    "intent_prediction": {
+      "name": "capacity",
+      "confidence": 0.3635288178920746
+    }
+  },
+  {
+    "text": "tell me about the m80 aircraft",
+    "intent": "aircraft",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.7398144006729126
+    }
+  },
+  {
+    "text": "tell me about the type of aircraft called an m80",
+    "intent": "aircraft",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.3376489281654358
+    }
+  },
+  {
+    "text": "what type of aircraft is used for the american flight leaving at 419 pm",
+    "intent": "aircraft",
+    "intent_prediction": {
+      "name": "capacity",
+      "confidence": 0.3282754421234131
+    }
+  },
+  {
+    "text": "flight numbers on american airlines from phoenix to milwaukee",
+    "intent": "flight_no",
+    "intent_prediction": {
+      "name": "aircraft",
+      "confidence": 0.14558961987495422
+    }
+  },
+  {
+    "text": "show me delta flight 486",
+    "intent": "flight",
+    "intent_prediction": {
+      "name": "airline",
+      "confidence": 0.1650400012731552
+    }
+  },
+  {
+    "text": "what flights depart from baltimore",
+    "intent": "flight",
+    "intent_prediction": {
+      "name": "airline",
+      "confidence": 0.20315328240394592
+    }
+  },
+  {
+    "text": "i want to fly from nashville to seattle and i want the cheapest fare round trip",
+    "intent": "flight",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.8782309889793396
+    }
+  },
+  {
+    "text": "how many flights does northwest have leaving dulles",
+    "intent": "flight",
+    "intent_prediction": {
+      "name": "distance",
+      "confidence": 0.16303560137748718
+    }
+  },
+  {
+    "text": "how many flights does alaska airlines have to burbank",
+    "intent": "flight",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.24685870110988617
+    }
+  },
+  {
+    "text": "on april first i need a ticket from tacoma to san jose departing before 7 am",
+    "intent": "airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9992832541465759
+    }
+  },
+  {
+    "text": "i 'd like a one way ticket from milwaukee to orlando either wednesday evening or thursday morning",
+    "intent": "airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9988466501235962
+    }
+  },
+  {
+    "text": "list all flights and their fares for all flights between miami and indianapolis",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.6730816960334778
+    }
+  },
+  {
+    "text": "i need a round trip flight from san diego to washington dc and the fares",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9863937497138977
+    }
+  },
+  {
+    "text": "i need a round trip from phoenix to washington dc and the fare leaving in the morning",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9153767824172974
+    }
+  },
+  {
+    "text": "i need flight and fare information for thursday departing prior to 9 am from oakland going to salt lake city",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.6646436452865601
+    }
+  },
+  {
+    "text": "i need flight and fare information departing from oakland to salt lake city on thursday before 8 am",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.939638614654541
+    }
+  },
+  {
+    "text": "list flights and fares from tacoma to orlando round trip leaving saturday returning next saturday",
+    "intent": "flight+airfare",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.704917848110199
+    }
+  },
+  {
+    "text": "i 'll need to rent a car in washington dc",
+    "intent": "ground_service",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.5564069151878357
+    }
+  },
+  {
+    "text": "what days of the week do flights from san jose to nashville fly on",
+    "intent": "day_name",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9849615097045898
+    }
+  },
+  {
+    "text": "are meals ever served on tower air",
+    "intent": "meal",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.3844052851200104
+    }
+  },
+  {
+    "text": "show me the airports serviced by tower air",
+    "intent": "airport",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.35706067085266113
+    }
+  },
+  {
+    "text": "which different airlines go from las vegas to new york city",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9744904637336731
+    }
+  },
+  {
+    "text": "what airlines fly between washington dc and columbus ohio",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.5326356887817383
+    }
+  },
+  {
+    "text": "which airlines fly from baltimore to san francisco",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.3190259337425232
+    }
+  },
+  {
+    "text": "list airlines flying from seattle to salt lake city",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9994950294494629
+    }
+  },
+  {
+    "text": "what is airline wn",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "abbreviation",
+      "confidence": 0.5150461792945862
+    }
+  },
+  {
+    "text": "show me airlines that have flights between toronto and detroit between detroit and st. louis and between st. louis and toronto",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.42594844102859497
+    }
+  },
+  {
+    "text": "what airline is dl",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "abbreviation",
+      "confidence": 0.4141060709953308
+    }
+  },
+  {
+    "text": "which airlines fly between toronto and san diego",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.7021047472953796
+    }
+  },
+  {
+    "text": "what airline is yx",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "abbreviation",
+      "confidence": 0.4487820565700531
+    }
+  },
+  {
+    "text": "list airlines that fly from seattle to salt lake city",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9903205037117004
+    }
+  },
+  {
+    "text": "which airline is as",
+    "intent": "airline",
+    "intent_prediction": {
+      "name": "abbreviation",
+      "confidence": 0.4132080674171448
+    }
+  },
+  {
+    "text": "list la",
+    "intent": "city",
+    "intent_prediction": {
+      "name": "abbreviation",
+      "confidence": 0.38029080629348755
+    }
+  },
+  {
+    "text": "what 's the fare for a taxi to denver",
+    "intent": "ground_fare",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.60394287109375
+    }
+  },
+  {
+    "text": "how many canadian airlines flights use aircraft dh8",
+    "intent": "quantity",
+    "intent_prediction": {
+      "name": "ground_service",
+      "confidence": 0.15406876802444458
+    }
+  },
+  {
+    "text": "how far is toronto international from downtown",
+    "intent": "distance",
+    "intent_prediction": {
+      "name": "city",
+      "confidence": 0.22023697197437286
+    }
+  },
+  {
+    "text": "how far is los angeles international from downtown",
+    "intent": "distance",
+    "intent_prediction": {
+      "name": "city",
+      "confidence": 0.2581372559070587
+    }
+  },
+  {
+    "text": "list distance from airports to downtown in new york",
+    "intent": "distance",
+    "intent_prediction": {
+      "name": "airport",
+      "confidence": 0.23984742164611816
+    }
+  },
+  {
+    "text": "at the charlotte airport how many different types of aircraft are there for us air",
+    "intent": "aircraft",
+    "intent_prediction": {
+      "name": "ground_service",
+      "confidence": 0.11303627490997314
+    }
+  },
+  {
+    "text": "determine the type of aircraft used on a flight from cleveland to dallas that leaves before noon",
+    "intent": "aircraft",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.2278222143650055
+    }
+  },
+  {
+    "text": "what type of aircraft are flying from cleveland to dallas before noon",
+    "intent": "aircraft",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9927356243133545
+    }
+  },
+  {
+    "text": "what type of plane is a d9s",
+    "intent": "aircraft",
+    "intent_prediction": {
+      "name": "abbreviation",
+      "confidence": 0.6863414645195007
+    }
+  },
+  {
+    "text": "list seating capacities of delta flights from seattle to salt lake city",
+    "intent": "capacity",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9542216062545776
+    }
+  },
+  {
+    "text": "how many people will a 757 hold",
+    "intent": "capacity",
+    "intent_prediction": {
+      "name": "abbreviation",
+      "confidence": 0.6807425022125244
+    }
+  },
+  {
+    "text": "i need flight numbers for those flights departing on thursday before 8 am from oakland going to salt lake city",
+    "intent": "flight_no",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9932669401168823
+    }
+  },
+  {
+    "text": "i need the flight numbers of flights leaving from cleveland and arriving at dallas",
+    "intent": "flight_no",
+    "intent_prediction": {
+      "name": "flight",
+      "confidence": 0.9773640632629395
+    }
+  },
+  {
+    "text": "flight number from houston to dallas",
+    "intent": "flight_no",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.21212923526763916
+    }
+  },
+  {
+    "text": "flight numbers from chicago to seattle",
+    "intent": "flight_no",
+    "intent_prediction": {
+      "name": "airfare",
+      "confidence": 0.18646836280822754
+    }
+  }
+]

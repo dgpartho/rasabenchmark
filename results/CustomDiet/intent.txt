@@ -1,0 +1,23 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - abbreviation
+  - aircraft
+  - airfare
+  - airline
+  - airport
+  - capacity
+  - city
+  - day_name
+  - distance
+  - flight
+  - flight_no
+  - ground_fare
+  - ground_service
+  - meal
+  - quantity
