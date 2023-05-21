@@ -1,0 +1,167 @@
+{
+  "ground_fare": {
+    "precision": 1.0,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.7272727272727273,
+    "support": 7,
+    "confused_with": {
+      "airfare": 2,
+      "ground_service": 1
+    }
+  },
+  "flight": {
+    "precision": 0.9634920634920635,
+    "recall": 0.9902120717781403,
+    "f1-score": 0.9766693483507642,
+    "support": 613,
+    "confused_with": {
+      "airfare": 3,
+      "meal": 1
+    }
+  },
+  "airport": {
+    "precision": 1.0,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.8181818181818181,
+    "support": 13,
+    "confused_with": {
+      "ground_service": 2,
+      "flight": 1
+    }
+  },
+  "flight_no": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "capacity": 3,
+      "flight": 2,
+      "quantity": 1
+    }
+  },
+  "meal": {
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7272727272727272,
+    "support": 6,
+    "confused_with": {
+      "city": 1,
+      "capacity": 1
+    }
+  },
+  "city": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1-score": 0.6,
+    "support": 5,
+    "confused_with": {
+      "flight+airfare": 1,
+      "abbreviation": 1
+    }
+  },
+  "aircraft": {
+    "precision": 1.0,
+    "recall": 0.375,
+    "f1-score": 0.5454545454545454,
+    "support": 8,
+    "confused_with": {
+      "flight": 3,
+      "capacity": 1
+    }
+  },
+  "airline": {
+    "precision": 0.9259259259259259,
+    "recall": 0.8928571428571429,
+    "f1-score": 0.9090909090909091,
+    "support": 28,
+    "confused_with": {
+      "flight": 3
+    }
+  },
+  "capacity": {
+    "precision": 0.8,
+    "recall": 0.9523809523809523,
+    "f1-score": 0.8695652173913043,
+    "support": 21,
+    "confused_with": {
+      "flight": 1
+    }
+  },
+  "abbreviation": {
+    "precision": 0.896551724137931,
+    "recall": 1.0,
+    "f1-score": 0.9454545454545454,
+    "support": 26,
+    "confused_with": {}
+  },
+  "quantity": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 3,
+    "confused_with": {}
+  },
+  "ground_service": {
+    "precision": 0.9230769230769231,
+    "recall": 1.0,
+    "f1-score": 0.9600000000000001,
+    "support": 36,
+    "confused_with": {}
+  },
+  "distance": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "airfare": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8333333333333334,
+    "support": 48,
+    "confused_with": {
+      "flight": 8
+    }
+  },
+  "day_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "flight": 1,
+      "airline": 1
+    }
+  },
+  "flight+airfare": {
+    "precision": 0.5714285714285714,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4210526315789474,
+    "support": 12,
+    "confused_with": {
+      "flight": 4,
+      "airfare": 3
+    }
+  },
+  "accuracy": 0.9385342789598109,
+  "macro avg": {
+    "precision": 0.7483062156553536,
+    "recall": 0.6817199852553646,
+    "f1-score": 0.6964294758065894,
+    "support": 846
+  },
+  "weighted avg": {
+    "precision": 0.9265788733486622,
+    "recall": 0.9385342789598109,
+    "f1-score": 0.929264726795899,
+    "support": 846
+  },
+  "micro avg": {
+    "precision": 0.9385342789598109,
+    "recall": 0.9385342789598109,
+    "f1-score": 0.9385342789598109,
+    "support": 846
+  }
+}
